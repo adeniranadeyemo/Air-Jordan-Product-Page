@@ -53,4 +53,31 @@ header ul{
 .separate{
   display: flex;
   justify-content: space-between;
+  bottom: 3px;
+}
+
+.separate li:nth-child(1) a{
+  font-size: 24px;
+  position: relative;
+}
+
+.separate li:nth-child(2) a{
+  letter-spacing: 12px;
+}
+
+.separate li:nth-child(3) a{
+  position: relative;
+}
+
+.separate li:nth-child(3) a span{
+  position: absolute;
+  bottom: 11px;
+  background: black;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 52px;
 }
