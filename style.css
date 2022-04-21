@@ -12,6 +12,7 @@
   overflow: hidden;
   background-image: linear-gradient(#ed5f47, #fe2d3b);
   height: 100vh;
+  padding: 0 100px;
 }
 
 .grid-container{
@@ -73,11 +74,68 @@ header ul{
   position: absolute;
   bottom: 11px;
   background: black;
-  height: 16px;
-  width: 16px;
+  height: 14px;
+  width: 14px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   left: 52px;
+}
+
+/* #####################
+###############
+################### */
+
+section{
+  padding: 8em 0em 12em 0;
+}
+
+.display{
+  height: 360px;
+  position: relative;
+  font-family: 'Gotham', sans-serif;
+  color: #fff;
+  font-style: italic;
+}
+
+.display h1{
+  text-transform: uppercase;
+  font-size: 8.2em;
+  font-weight: 800;
+  float: right;
+}
+
+.display h1::before{
+  content:" \" ";
+  font-size: .12em;
+  position: absolute;
+  top: 1.6em;
+  left: 13em;
+}
+
+.display h1::after{
+  content:" \" ";
+  font-size: .12em;
+  position: absolute;
+  bottom: 4.3em;
+  right: 1em;
+}
+
+.display h2{
+  float: right;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 8.5em;
+  left: 16.5em;
+}
+
+.display img{
+  position: absolute;
+  bottom: 3em;
+  height: 20em;
+  float: right;
+  left: 11em;
+  transform: rotate(-17deg);
 }
