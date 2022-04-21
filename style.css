@@ -134,8 +134,8 @@ section{
 .display img{
   position: absolute;
   bottom: 3em;
-  height: 20em;
+  height: 21em;
   float: right;
-  left: 11em;
+  left: 13em;
   transform: rotate(-17deg);
 }
