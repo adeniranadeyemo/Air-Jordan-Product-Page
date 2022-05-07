@@ -149,7 +149,7 @@ section .details .brand{
   display: flex;
   align-items: center;
   margin-bottom: 2em;
-  /* margin-left: -7em; */
+  margin-left: -2em;
 }
 
 section .details .brand .brand-name h1{
@@ -160,6 +160,10 @@ section .details .brand .brand-name h1{
   /* padding-right: 20px;  */
   font-style: italic;
   color: white;
+}
+
+section .details .brand .rating{
+  margin-left: -2em;
 }
 
 section .details .brand .rating ul li{
