@@ -142,6 +142,7 @@ section{
 
 section .details{
   position: relative;
+  left: 9.3%;
   /* margin-right: -15em; */
 }
 
@@ -181,8 +182,53 @@ section .details .brand .rating ul li:last-child{
 section .details .product-details{
   width: 90%;
   margin-right: -1.1em;
+  /* margin-bottom: 16em; */
 }
 
 section .details .product-details .category{
   margin-bottom: 10px;
+}
+
+section .details .product-details a{
+  color: white;
+  text-transform: capitalize;
+  font-size: .7em;
+  text-decoration: none;
+  display: block;
+  font-family: 'Mada', sans-serif;
+}
+
+section .details .product-details .product-name h2{
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1.4em;
+  margin-bottom: .5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section .details .product-details .product-description p{
+  color: white;
+  font-family: 'Mada', sans-serif;
+  font-size: .9em;
+  margin-bottom: 15px;
+  line-height: 1.3em;
+  padding-right: 7em;
+}
+
+section .details .product-details .product-description ul{
+  padding-left:15px;
+  margin-bottom: 1em;
+}
+
+section .details .product-details .product-description ul li{
+  color: white;
+  text-transform: capitalize;
+  font-size: .8em;
+  font-family: 'Mada', sans-serif;
+  line-height: 1.5em;
+}
+
+section .details .product-details .product-description a{
+  text-decoration: underline;
 }
