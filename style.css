@@ -89,6 +89,7 @@ header ul{
 
 section{
   padding: 8em 0em 12em 0;
+  margin-top: -40px;
 }
 
 .display{
@@ -231,4 +232,70 @@ section .details .product-details .product-description ul li{
 
 section .details .product-details .product-description a{
   text-decoration: underline;
+}
+
+section .details .product-details .product-size-select{
+  position: relative;
+  margin: 13px 0;
+}
+
+section .details .product-details .product-size-select i{
+  color: yellow;
+  position: absolute;
+  font-size: 1.5em;
+  /* margin-top: 5px; */
+}
+
+section .details .product-details .product-size-select select{
+  padding: 5px;
+  margin-left: 20px;
+  border: none;
+  -webkit-appearance: listbox;
+  appearance: none;
+  width: 100px;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: .9em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+}
+
+section .details .product-details .product-size-select option{
+  color: #fe2d3b;
+  font-weight: 500;
+}
+
+section .details .product-details .product-btn-price{
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  margin-top: 35px;
+  margin-left: -28%;
+}
+
+section .details .product-details .product-btn-price button{
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: .65em;
+  letter-spacing: .3em;
+  cursor: pointer;
+}
+
+section .details .product-details .product-btn-price .price{
+  color: white;
+  margin-left: -10%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  letter-spacing: .1em;
 }
